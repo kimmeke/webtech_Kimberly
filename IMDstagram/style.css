@@ -1,0 +1,63 @@
+section div{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 40px;
+    
+}
+
+.logo{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+@media ( min-width: 40em ){
+    body{
+        color: ;
+    }
+    section div{
+        flex: 1 1 0%;
+    }
+    
+    section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+        
+}
+    
+    .logo{
+        width: auto;
+    order:3;
+}
+
+.typography{
+    order: 1;
+}
+.ui{
+    order: 2;
+}
+
+.branding{
+    order:4;
+}
+
+.graffiti{
+    order: 5;
+}

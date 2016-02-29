@@ -1,0 +1,88 @@
+html, body{
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/356112/splitshire.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li{
+    color: white;
+    list-style: none;
+}
+
+nav li{
+    margin-bottom: 1em;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+section li{
+    text-align: center;
+}
+
+section ul{
+    margin-right: 25px;
+    text-align: center;
+}
+
+
+@media ( min-width: 40em ){
+    body{
+        color: red;
+    }
+    section li{
+        flex: 1 1 0%;
+    }
+    section > ul{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+        
+}
+
+    header{
+        display: flex;
+    }
+    
+    nav li{
+        flex: 1 1 0%;
+        display: block;
+        
+        
+    }
+    
+    nav ul{
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        
+        
+    }
+    nav{
+        flex: 1;
+    }
+    
+}
+
+@media ( min-width: 60em ){
+    
+    nav{
+        max-width: 700px;
+        margin-left: auto;
+    }
+    
+    nav{
+        align-items: flex-end;
+    }
+    
+}
