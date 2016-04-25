@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<div class="weather">
+        <p>NU</p>
+		<div><canvas id="weather-icon" width="200" height="200"></canvas></div>
+		<h1 class="weather-summary"></h1>
+		<h3 class="temperature"></h3>
+	</div>
+
+	<div class="weatherHourly">
+	<div class="weather">
+        <p>+1H</p>
+		<div><canvas id="weather-icon-1h" width="120" height="120"></canvas></div>
+		<h2 class="weather-summary-1h"></h2>
+		<h3 class="temperature-1h"></h3>
+	</div>
+
+	<div class="weather">
+        <p>+2H</p>
+		<div><canvas id="weather-icon-2h" width="120" height="120"></canvas></div>
+		<h2 class="weather-summary-2h"></h2>
+		<h3 class="temperature-2h"></h3>
+	</div>
+
+	<div class="weather">
+        <p>+3H</p>
+		<div><canvas id="weather-icon-3h" width="120" height="120"></canvas></div>
+		<h2 class="weather-summary-3h"></h2>
+		<h3 class="temperature-3h"></h3>
+	</div>
+
+	<div class="weather">
+        <p>+4H</p>
+		<div><canvas id="weather-icon-4h" width="120" height="120"></canvas></div>
+		<h2 class="weather-summary-4h"></h2>
+		<h3 class="temperature-4h"></h3>
+	</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<script src="js/skycons.js"></script>
+	<script src="js/start.js"></script>
+
+</body>
+</html>
